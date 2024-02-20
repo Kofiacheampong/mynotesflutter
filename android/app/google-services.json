@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "725294828883",
+    "project_id": "mynotes-flutter-project-2024",
+    "storage_bucket": "mynotes-flutter-project-2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725294828883:android:bd9329ffd0327f9c4e25a6",
+        "android_client_info": {
+          "package_name": "com.kofiarcher.mynotes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrLx0fKWm9AGhvcikEBegC0FAu0syahUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
