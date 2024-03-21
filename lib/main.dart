@@ -8,6 +8,9 @@ import 'package:mynotes/views/notes_view.dart';
 import 'package:mynotes/views/register_view.dart';
 import 'package:mynotes/views/verify_email_view.dart';
 
+var myTheme = ThemeData(
+  colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+);
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
@@ -17,10 +20,7 @@ void main() async {
     MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primaryColor: Colors.deepPurple,
-        useMaterial3: true,
-      ),
+      theme: myTheme,
       home: const HomePage(),
       routes: {
         loginRoute: (context) => const LoginView(),

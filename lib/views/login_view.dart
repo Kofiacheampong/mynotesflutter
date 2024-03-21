@@ -70,6 +70,9 @@ class _LoginViewState extends State<LoginView> {
                       notesRoute,
                       (route) => false,
                     );
+                  } else {
+                    Navigator.of(context).pushNamedAndRemoveUntil(
+                        verifyEmailRoute, ((route) => false));
                   }
                 } on FirebaseAuthException catch (e) {
                   if (e.code == 'user-not-found') {
